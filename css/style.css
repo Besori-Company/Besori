@@ -279,11 +279,13 @@ section {
   }
 
 .redes {
-    border-radius: 2rem;
-    width: 100%;
-    height: 20rem;
-    margin: 3%;
-    object-fit: cover;
+  width: 100%;            
+  max-width: 40rem;    
+  height: 20rem;         
+  object-fit: cover;     
+  border-radius: 2rem;
+  margin: 3% auto;
+  display: block;
 }
 
 .github {
@@ -350,7 +352,9 @@ section {
     .redes {
         width: 90%;
         height: 17rem;
-    }
+        object-fit: cover;
+        border-radius: 2rem;
+      }
 }
 
 @media (max-width: 750px) {
@@ -419,4 +423,3 @@ section {
         display: block;
     }
 }
-
