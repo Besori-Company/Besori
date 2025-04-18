@@ -141,6 +141,7 @@ section {
     display: flex;
     align-items: center;
     padding-bottom: 4rem;
+    justify-content: center;
 }
 
 .nosotros {
@@ -318,6 +319,11 @@ section {
     padding-top: 5rem;
 }
 
+.feedback_contenido {
+    display: flex;
+    justify-content: center;
+}
+
 .feedback {
     padding: 0rem 5rem 7rem 5rem;
     display: flex;
@@ -348,7 +354,7 @@ section {
     display: block;
 }
 
-.mobile_only {
+.movil_only {
     display: none;
 }
 
@@ -456,8 +462,35 @@ section {
     
 }
 
-@media (max-width: 620px) {
+@media (max-width: 633px) {
     .desktop_only {
         display: none;
     }
+
+    .movil_only {
+        display: block;
+        margin-bottom: 5rem;
+    }
+
+    .img_feedback_movil {
+        width: 25%;
+        height: 25%;
+        margin: 3%;
+        border-radius: 15%;
+    }
+
+    .movil_only div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .movil_only p {
+        margin-left: 3%;
+    }
+
+    .feedback_contenido {
+        display: none;
+    }
+
 }
