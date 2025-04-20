@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Besori es un proyecto indie enfocado en el desarrollo de aplicaciones y videojuegos, ofreciendo experiencias digitales innovadoras y accesibles.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Besori | Desarrollo de apps y videojuegos">
+    <meta property="og:description" content="Proyecto indie centrado en la creación de experiencias digitales innovadoras.">
+    <meta property="og:image" content="https://besori-company.github.io/Besori/img/B.png">
+    <meta property="og:url" content="https://besori-company.github.io/Besori/">
+    <meta property="og:type" content="website">
     <title>Besori | Desarrollo de aplicaciones y videojuegos</title>
     <link rel="icon" href="img/B.png" type="image/png">
     <!-- Google Fonts -->
@@ -19,7 +25,7 @@
 
 
 <body>
-    <header id="inicio">
+    <header id="inicio" role="banner">
         <img class="x" src="img/x.png" alt="x">
         <img class="inicio_imagen" src="img/Besori.png" alt="Besori">
         <h1>Nos dedicamos al desarrollo de aplicaciones y videojuegos</h1>
@@ -33,7 +39,7 @@
     </nav>
 
     <main>
-        <section class="producto">
+        <section class="producto" role="navigation" aria-label="Menú principal">
             <h2 class="titulo">
                 <img class="ico_azul" src="img/trazo.png" alt="icono">
                 Productos
@@ -109,9 +115,9 @@
         </section>
     </main>
 
-    <footer>
+    <footer role="contentinfo">
         <span>© 2025 Besori</span>
-        <span>besoricompany@gmail.com</span>
+        <span><a href="mailto:besoricompany@gmail.com">besoricompany@gmail.com</a></span>
     </footer>
 
     <script>

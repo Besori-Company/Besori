@@ -108,6 +108,11 @@ footer {
     margin: 3rem;
 }
 
+footer a {
+    text-decoration: none;
+    color: var(--negro);
+}
+
 section {
     background-color: var(--blanco);
     width: 95%;
