@@ -180,74 +180,6 @@ section {
     padding-bottom: 5rem;
 }
 
-.contacto form {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.campos-superiores {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.campo {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-.contacto label {
-    font-weight: bold;
-    font-size: 1.6rem;
-    margin-bottom: 0.8rem;
-    color: #000000;
-}
-
-.contacto input,
-.contacto textarea {
-    padding: 1rem;
-    font-size: 1.6rem;
-    border-radius: 0.5rem;
-    border: 2px solid #44475a;
-    background-color: #282a36;
-    color: #f8f8f2;
-    transition: border 0.3s ease;
-    width: 100%;
-    font-family: Doto;
-}
-
-.contacto input:focus,
-.contacto textarea:focus {
-    border-color: #4d9efc;
-    outline: none;
-}
-
-.contacto textarea {
-    resize: vertical;
-    min-height: 150px;
-}
-
-.contacto button {
-    padding: 1rem 2rem;
-    font-size: 1.6rem;
-    border-radius: 0.5rem;
-    background-color: #4d9efc;
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-}
-
-.contacto button:hover {
-    background-color: #3c8ed9;
-}
-
-.contacto button:active {
-    background-color: #3577b1;
-}
-
 
 .ico_azul,
 .ico_amarillo {
@@ -503,13 +435,8 @@ section {
         font-size: 2.7rem;
     }
 
+    .ico_azul,
     .ico_amarillo {
-        height: 4rem;
-        width: 3.1rem;
-        margin-left: 0.2rem;
-    }
-
-    .ico_azul {
         height: 4rem;
         width: 3.1rem;
         margin-left: 0.2rem;
